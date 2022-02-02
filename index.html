@@ -8,45 +8,62 @@
             background-color: #AAAAAA;
             width: 30%;
             margin: auto;
-            text-align: left;
+            text-align: center;
+            align-items: center;
+            align-content: center;
         }
-        .section_div{
+
+        .section_div {
             background-color: #BBBBBB;
         }
+
         .section_div:hover {
             background-color: #CCCCCC;
             transform: scale(1.02);
         }
 
         .text_main {
-            color: #00171F;
-        }
-        .text_title {
             color: #001F2E;
         }
-        .text_top_title {
+
+        .text_title {
             color: #00263C;
         }
-        #headshot {
-            size: auto;
-            width: 20%;
-            float: left;
-            vertical-align: middle;
+
+        .text_top_title {
+            color: #4CA15D;
+        }
+        .image {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .my_list{
+            margin-left: 34%;
+            text-align: left;
+            text-justify: distribute;
         }
     </style>
 </head>
 <body>
 <div class="section_div" id="Header">
-    <img src="messages_0%20(22).jpeg" alt="DSC_0416.jpg" id="headshot" class="image">
-    <h1 class="text_top_title">
-        Jonah Scudere-Weiss
-    </h1>
-    <h2 class="text_top_title">
-        Student at Clark University
-    </h2>
-    <h3 class="text_top_title">
-        Computer Science/Data Science
-    </h3>
+    <table>
+        <tr>
+        <td>
+            <img src="messages_0%20(22).jpeg" alt="hello" class="image">
+        </td>
+        <td>
+        <h1 class="text_top_title">
+            Jonah Scudere-Weiss
+        </h1>
+        <h2 class="text_top_title">
+            Student at Clark University
+        </h2>
+        <h3 class="text_top_title">
+            Computer Science/Data Science
+        </h3>
+        </td>
+        </tr>
+    </table>
 </div>
 <br>
 <hr>
@@ -58,22 +75,22 @@
     <hr>
     <div class="section_div">
         <h3 class="text_title"> Classes</h3>
-        <ol>
+        <ul class="my_list">
             <li class="circle">Field Astronomy</li>
             <li class="circle">Big Bang</li>
             <li class="circle">Galaxy</li>
             <li class="circle">Origin of Solar System</li>
-        </ol>
+        </ul>
     </div>
     <hr>
     <div class="section_div">
         <h3 class="text_title"> Code Skills</h3>
-        <ol>
+        <ul class="my_list">
             <li class="square">Field Astronomy</li>
             <li class="square">Big Bang</li>
             <li class="square">Galaxy</li>
             <li class="square">Origin of Solar System</li>
-        </ol>
+        </ul>
     </div>
     <hr>
     <div class="section_div">
