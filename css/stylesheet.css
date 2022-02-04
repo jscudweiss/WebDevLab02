@@ -16,7 +16,7 @@ body {
     align-content: center;
 }
 
-.section_div {
+.section_div, #Header{
     background-color: var(--MinBackground);
     border-radius: 10px;
     border: 5px solid var(--Main);
