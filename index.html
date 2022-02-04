@@ -31,7 +31,8 @@
         }
 
         .my_table {
-            margin-left: 22%;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .text_main {
@@ -52,7 +53,8 @@
         }
 
         .my_list {
-            margin-left: 34%;
+            margin-left: auto;
+            margin-right: auto;
             text-align: left;
             text-justify: distribute;
         }
@@ -138,10 +140,16 @@
     <hr>
     <h3>Contact</h3>
     <form method="post" id="form"></form>
-    <label for="name" class="text_title">Name: </label>
-    <input type="text" id="name" name="name" value=""><br>
-    <label for="age" class="text_title"> Age:  </label>
-    <input type="text" id="age" name="age" value=""><br>
+    <table class="my_table">
+        <tr>
+            <td><label for="name" class="text_title">Name: </label></td>
+            <td><input type="text" id="name" name="name" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="age" class="text_title"> Age: </label></td>
+            <td><input type="text" id="age" name="age" value=""></td>
+        </tr>
+    </table>
     <input type="submit" value="submit">
 </div>
 </body>
