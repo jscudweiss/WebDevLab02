@@ -1,5 +1,14 @@
+:root{
+    /* CSS HEX */
+    --Background: #FDD692;
+    --MinBackground: #FCEBA6;
+    --BackLight: #FBFFB9;
+    --Top-Title: #EC7357;
+    --Title: #754F44;
+    --Main: #B1614E;
+}
 body {
-    background-color: #AAAAAA;
+    background-color: var(--Background);
     width: 30%;
     margin: auto;
     text-align: center;
@@ -8,13 +17,15 @@ body {
 }
 
 .section_div {
-    background-color: #BBBBBB;
+    background-color: var(--MinBackground);
     border-radius: 10px;
+    border: 5px solid var(--Main);
 }
 
 .section_div:hover {
-    background-color: #CCCCCC;
+    background-color: var(--BackLight);
     transform: scale(1.01);
+    border: 5px solid var(--Top-Title);
 }
 
 .square {
@@ -31,15 +42,15 @@ body {
 }
 
 .text_main {
-    color: #001F2E;
+    color: var(--Main);
 }
 
 .text_title {
-    color: #00263C;
+    color: var(--Title);
 }
 
 .text_top_title {
-    color: #4CA15D;
+    color: var(--Top-Title);
 }
 
 .image {
